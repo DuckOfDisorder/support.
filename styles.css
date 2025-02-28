@@ -1,0 +1,90 @@
+.main {
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+    overflow-x: clip;
+
+    background-color: fuchsia;
+    background-image: url("https://images.pexels.com/photos/1144176/pexels-photo-1144176.jpeg?cs=srgb&dl=pexels-blitzboy-1144176.jpg&fm=jpg&w=1920&h=1078");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    
+    .content {
+        padding-top: 3vmax;
+        padding-bottom: 3vmax;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    .info {
+        padding: 2vw;
+        margin-bottom: 1vmax;
+        border: solid;
+        border-width: 0.5vmax;
+        border-color: black;
+        border-radius: 1vmax;
+        background: white;
+
+        width: min(50vh, 90vw);
+        display: flex;
+        flex-direction: column;
+        
+        font-family: "Exo 2", serif;
+        font-optical-sizing: auto;
+        font-weight: inherit;
+        font-style: normal;
+
+        font-size: 0.75rem;
+
+        .header {
+            display: grid;
+            grid: 1fr / 1fr 1fr;
+        }
+
+        h1 {
+            align-self: flex-end;
+        }
+
+        .pfp {
+            align-self: flex-start;
+            justify-self: end;
+            width: 50%;
+            aspect-ratio: 1 / 1;
+            background-image: url("https://blahaj.zone/proxy/avatar.webp?url=https%3A%2F%2Fcdn.blahaj.zone%2Ffiles%2F1b8877fb-8c58-4d5f-9646-8407f07ac94a.jpg&avatar=1");
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            border-radius: 1vmax;
+        }
+    }
+    }
+
+    #paypal-container-F554LDC88X3XY{
+        padding: 2vw;
+        border: solid;
+        border-width: 0.5vmax;
+        border-color: black;
+        border-radius: 1vmax;
+        background: white;
+
+        width: min(50vh, 90vw);
+        
+        font-family: "Exo 2", serif;
+        font-optical-sizing: auto;
+        font-weight: inherit;
+        font-style: normal;
+    }
+
+    .input-label{
+        color: black;
+        padding-bottom: 1vmin;
+        font-size: 2rem !important;
+    }
+}
